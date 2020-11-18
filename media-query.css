@@ -1,0 +1,499 @@
+@media only screen and (max-width:717px){
+    
+    .logo{
+        flex: 1;
+        background: url(images/logo-header.svg) no-repeat top left;
+        background-size: 11rem;
+    }
+/********C2*********/
+.container2{
+    background: url(images/screen-mockups.svg) no-repeat center 30rem;
+    background-size: 87%;
+    color: hsl(192, 100%, 9%);
+    width: 100%;
+    height: 60rem;
+
+}
+.txt{
+    text-align: center ;
+    width: 60%;
+    margin: 7rem auto;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+
+   
+}
+.txt p {
+    width: 79%;
+    margin: 2rem auto;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+.container2 button, .container7 button{
+    width: 14rem;
+    height: 3rem;
+}
+/*********C3**********/
+.container32{
+    display: none;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item1, .item2{
+    margin: 2rem;
+    display: block;
+    text-align: center;
+}
+.com, .msg{
+    width: 2rem;
+    margin-right: 7.8rem;
+    
+
+}
+
+.container3 h1{
+    color: hsl(192, 100%, 9%);
+    font-size: 3rem;
+
+} 
+
+/********C4**********/
+.container41{
+    display: none;
+}
+.container4{
+    margin: 20rem 0;
+    background: #F6FBFF;
+    position: relative;
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.container4::before{
+    content: '';
+    width: 100%;
+    height: 140px;
+    background-image: url(images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -140px;
+    left: 0;
+}
+.container4::after{
+    content: '';
+    width: 100%;
+    height: 140px;
+    background-image: url(images/bg-section-bottom-desktop-1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -140px;
+    left: 0;
+ 
+}
+#txt{
+    width: 32rem;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#txt h1{
+    margin-top: 3rem;
+}
+#txt p{
+    width: 73%;
+    margin: 1.5rem auto;
+
+
+}
+.container4 img, .container5 img, .container6 img{
+    width: 20rem;
+    margin: 2rem auto;
+}
+/*******C5**********/
+.container5{
+    margin: 22rem 0;
+    display: block;
+   
+}
+.container51{
+    display: none;
+}
+
+/*******C6**********/
+.container6{
+    background: #F6FBFF;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container6::before{
+    content: '';
+    width: 100%;
+    height: 30rem;
+    top: -9.7rem;
+    position: absolute;
+    background: url(images/bg-section-top-desktop-2.svg) no-repeat;
+}
+.container6::after{
+    content: '';
+    position: absolute;
+    background: url(images/bg-section-bottom-desktop-2.svg) no-repeat;
+    height: 30rem;
+    width: 100%;
+    bottom: -30rem;
+}
+.container61{
+    display: none;
+}
+
+/*********C7*******/
+.container7 h1{
+    margin: 20rem auto 1rem ;
+width: 50%;
+}
+/**********footer**********/
+footer{
+    display: none;
+}
+#fo2{
+    position: relative;
+    display: block;
+    height: 60rem;
+    color: white;
+    background: #00252E;
+    margin-top: 20rem;
+}
+
+#fo2::before{
+    content: '';
+    background: url(images/bg-footer-top-desktop.svg) no-repeat;
+    position: absolute;
+    height: 20rem;
+    width: 100%;
+    bottom: 49.8rem;
+}
+#fo2 .info{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#fo2 .sub{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+}
+
+
+
+
+@media only screen and (max-width:512px){
+     
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .tryf button{
+        width: 6rem;
+        height: 1.7rem;
+    }
+    .tryf button:hover{
+        width: 6rem;
+        height: 1.7rem;
+       
+    }
+    .logo{
+        flex: 1;
+        background: url(images/logo-header.svg) no-repeat top left;
+        background-size: 9rem;
+    }
+/********C2*********/
+.container2{
+    background: url(images/screen-mockups.svg) no-repeat center 30rem;
+    background-size: 87%;
+    color: hsl(192, 100%, 9%);
+    width: 100%;
+    height: 60rem;
+
+}
+.txt{
+    text-align: center ;
+    width: 85%;
+    margin: 7rem auto;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+
+   
+}
+.txt p {
+    width: 79%;
+    margin: 2rem auto;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+.container2 button, .container7 button{
+    width: 13rem;
+    height: 2.7rem;
+}
+/*********C3**********/
+.container32{
+    display: none;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item1, .item2{
+    margin: 2rem;
+    display: block;
+    text-align: center;
+}
+.com, .msg{
+    width: 2rem;
+    margin-right: 7.8rem;
+    
+
+}
+
+.container3 h1{
+    color: hsl(192, 100%, 9%);
+    font-size: 3rem;
+
+} 
+
+/********C4**********/
+.container41{
+    display: none;
+}
+.container4{
+    margin: 20rem 0;
+    background: #F6FBFF;
+    position: relative;
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.container4::before{
+    content: '';
+    width: 100%;
+    height: 140px;
+    background-image: url(images/bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: 33rem;
+    position: absolute;
+    top: -140px;
+}
+.container4::after{
+    content: '';
+    width: 100%;
+    height: 140px;
+    background-image: url(images/bg-section-bottom-mobile-1.svg);
+    background-size: 35rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -140px;
+ 
+}
+#txt{
+    width: 32rem;
+    margin: 0 auto;
+    text-align: center;
+
+}
+#txt h1{
+    margin-top: 3rem;
+}
+#txt p{
+    width: 73%;
+    margin: 1.5rem auto;
+
+
+}
+.container4 img, .container5 img, .container6 img{
+    width: 20rem;
+    margin: 2rem auto;
+}
+/*******C5**********/
+.container5{
+    margin: 22rem 0;
+    display: block;
+   
+}
+.container51{
+    display: none;
+}
+
+/*******C6**********/
+.container6{
+    background: #F6FBFF;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container6::before{
+    content: '';
+    width: 100%;
+    height: 30rem;
+    top: -9rem;
+    position: absolute;
+    background: url(images/bg-section-top-mobile-2.svg) no-repeat;
+    background-size: 35rem;
+
+}
+.container6::after{
+    content: '';
+    position: absolute;
+    background: url(images/bg-section-bottom-mobile-2.svg) no-repeat;
+    background-size: 35rem;
+    height: 30rem;
+    width: 100%;
+    bottom: -30rem;
+}
+.container61{
+    display: none;
+}
+
+/*********C7*******/
+.container7 h1{
+    margin: 20rem auto 1rem ;
+width: 80%;
+}
+/**********footer**********/
+footer{
+    display: none;
+}
+#fo2{
+    position: relative;
+    display: block;
+    height: 60rem;
+    color: white;
+    background: #00252E;
+    margin-top: 20rem;
+}
+
+#fo2::before{
+    content: '';
+    background: url(images/bg-footer-top-mobile.svg) no-repeat;
+    background-size: 35rem;
+    position: absolute;
+    height: 20rem;
+    width: 100%;
+    bottom: 44.7rem;
+}
+#fo2 .info{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#fo2 .contact{
+    display: grid;
+    grid-template-columns: 1rem 16rem;
+    margin: 2rem 0 4rem 0;
+}
+#fo2 .contact p{
+    margin: 1.1rem  0 0 1rem;
+}
+#fo2 .contact img{
+    margin: 1.2rem 0;
+}
+#fo2 .sub{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+#fo2 form{
+    margin: 3rem 0;
+}
+#fo2 .submit{
+    height: 2.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.06rem;
+    background-color:hsl(322, 100%, 66%);
+    width: 8rem;
+    color:  hsl(0, 0%, 100%);
+    margin: 2.5rem auto;
+    border:  hsl(322, 100%, 66%) 0.12rem solid;
+    border-radius: 0.3rem;
+}
+#fo2 .email{
+    height: 2.2rem;
+    width: 57%;
+    margin-right: 1rem;
+    border:  hsl(322, 100%, 66%) 0.12rem solid;
+    padding-left: 1rem;
+    border-radius: 0.4rem;
+
+}
+#fo2 #tw, #fb, #in{
+    fill: white;
+}
+#fo2 ul .socail-media{
+    padding: 0;
+}
+#fo2 ul{
+    display: flex;
+    padding: 0;
+    justify-content: start;
+}
+#fo2 .socail-media li{
+    list-style: none;
+    margin: 0 1.3rem;
+}
+#in:hover{
+    fill:#833ab4;
+}
+#tw:hover{
+    fill: #1ca0f2;
+}
+#fb:hover{
+    fill: #3b599f;
+}
+
+
+}
+
+@media only screen and (max-width:375px){
+    .logo{
+        background-size: 8rem;
+    }
+     h1{
+        font-size: 1.5rem;
+    }
+    .container2 p{
+        width: 90%;
+    }
+    #txt img{
+        width: 18rem;
+    }
+    #txt p{
+        width: 20rem;
+    }
+    #txt{
+        margin: 0 -4rem;
+    }
+    input .submit{
+        margin: 0 auto;
+    }
+    input .email{
+        margin: 0 auto;
+    }
+}
